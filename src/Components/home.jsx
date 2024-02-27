@@ -195,8 +195,7 @@ const Home = () => {
           className="deals-main"
           style={{ position: "relative", top: "50px" }}
         >
-          <h1
-          style={{margin:"0px", position:"relative", left:"100px"}}
+         <h1 className="deals-heading"
           >
             Related deals you might like for
           </h1>
