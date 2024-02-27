@@ -278,7 +278,7 @@ const Home = () => {
             <h1 style={{ fontSize: "2.4rem" }}>
               Sign up and get exclusive <br /> special deals
             </h1>
-            <button>Sign Up</button>
+           <button  className="btn-deal"> Sign Up</button>
           </div>
         </div>
       </div>
