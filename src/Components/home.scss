@@ -362,7 +362,7 @@ header {
   margin-bottom: 80px;
 }
 
-.sign-up > button {
+.btn-deal {
   padding: 20px;
   position: relative;
   left: 10px;
@@ -372,6 +372,14 @@ header {
   height: 100%;
   border-radius: 0px 12px 12px 0px;
   border: 2px solid white;
+  @media screen and (max-width: 768px) {
+    padding: 0px;
+
+    left: 0px;
+    padding: 0px 0px;
+    width: auto;
+    height: 40px;
+  }
 }
 
 .contact {
